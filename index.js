@@ -10,7 +10,7 @@ lbApp.boot().then(function() {
     // https://github.com/strongloop/loopback-next/pull/3133
     // https://github.com/strongloop/loopback-next/issues/2329
     // https://github.com/strongloop/loopback-next/issues/2285
-    fastify.use('/api/explorer', function(req, res, next) {
+    fastify.use('/api', function(req, res, next) {
         req.baseUrl = '/api'
         next();
     })
