@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/No9/fastify-loopback-example#readme",
   "dependencies": {
-    "fastify": "^2.7.0"
+    "fastify": "^2.15.1"
   }
 }
